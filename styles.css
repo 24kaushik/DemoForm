@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Libre+Baskerville&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comme', sans-serif;
+}
+
+body {
+    background: url("https://media.nature.com/lw1024/magazine-assets/d41586-021-02760-8/d41586-021-02760-8_19733408.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: 4vh auto;
+    padding: 2em;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    margin: auto auto 30px auto;
+}
+
+h3 {
+    margin: 30px auto 20px auto;
+}
+
+h1,
+h3 {
+    text-align: center;
+
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin: auto auto 30px auto;
+}
+
+input,
+select,
+input[type="text"]:focus {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1px 2px;
+    height: 1.5em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.07);
+    color: white;
+    outline: none;
+    font-size: medium;
+}
+
+fieldset {
+    margin: 20px auto 10px auto;
+    border: none;
+}
+
+input[type="radio"] {
+    width: unset;
+    vertical-align: top;
+}
+
+
+label {
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width:unset;
+    vertical-align:top;
+ }

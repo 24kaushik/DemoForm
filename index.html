@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drivers licence appointment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>Drivers Licence Appointment</h1>
+    <p><i>Make an appointment in your nearest RTO office online.</i></p>
+    <form method="post" action="">
+      <fieldset>
+        <h3>Select a RTO office to make an appointment</h3>
+        <label for="state">State: <input required type="text" name="state" id="state"></label>
+        <label for="office">Office: <input required type="text" name="office" id="office"></label>
+        <label for="pincode">Pincode: <input required type="number" name="pincode" max="999999" min="100000"
+            id="pincode"></label>
+      </fieldset>
+      <fieldset>
+        <h3>Personal Details</h3>
+
+        <label for="first-name">First Name: <input required type="text" maxlength="20" name="first-name"
+            id="first-name"></label>
+
+        <label for="middle-name">Middle Name: <input required type="text" maxlength="20" name="middle-name"
+            id="middle-name"></label>
+
+        <label for="last-name">Last Name: <input required type="text" maxlength="20" name="last-name"
+            id="last-name"></label>
+
+        <div>Sex :
+          <label for="male"><input type="radio" id="male" name="sex" checked> Male</label>
+          <label for="female"><input type="radio" id="female" name="sex"> Female</label>
+          <label for="other"><input type="radio" id="other" name="sex"> Other</label>
+        </div>
+        <label for="dob">Date of Birth: <input required type="date" name="dob" id="dob"></label>
+
+        <label for="placeOfBirth">Place of Birth: <input required type="text" maxlength="20" name="placeOfBirth"
+            id="placeOfBirth"></label>
+        <label for="countryOfBirth">Country of Birth: <input required type="text" maxlength="20" name="countryOfBirth"
+            id="countryOfBirth"></label>
+        <label for="blood-group">Blood Group: <select name="blood-group" id="blood-group">
+            <option value="unknown">unknown</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+          </select></label>
+        <label for="phone-num">Phone number: <input required type="number" max="9999999999" min="1000000000"
+            name="phone-num" id="phone-num"></label>
+        <label for="email">Email id: <input required type="email" name="email" id="email"></label>
+      </fieldset>
+      <label id="tnclabel" for="tnc"><input  required type="checkbox" value="agree" name="tnc" id="tnc"> I accept all the terms and conditions</label>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+
+</html>
