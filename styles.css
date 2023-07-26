@@ -89,3 +89,7 @@ input[type="checkbox"] {
     width:unset;
     vertical-align:top;
  }
+
+option{
+    color: black;
+}
